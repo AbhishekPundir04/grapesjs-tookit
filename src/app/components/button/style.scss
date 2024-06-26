@@ -1,0 +1,60 @@
+.customButton {
+    .MuiButtonBase-root {
+      border-radius: 8px;
+      height: 54px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      text-transform: capitalize;
+      box-shadow: none;
+      background-color: #298D6C;
+      color: #fff;
+      .addIcon {
+        display: flex;
+        svg {
+          margin-right: 7px;
+        }
+      }
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+  .formBtnBx {
+    display: flex;
+    margin-top: 1.7rem;
+  }
+  .formButton {
+    .MuiButtonBase-root {
+      height: 54px !important;
+      border-radius: 10px;
+      text-transform: capitalize;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  }
+  
+  .formBtn .MuiButtonBase-root {
+    height: 48px;
+    width: 150px;
+    color: #000;
+    border-radius: 8px;
+  }
+  .submitCancelDualBtn {
+    display: flex;
+    justify-content: center;
+    button:first-child {
+      margin-right: 20px;
+    }
+    button {
+      width: 200px;
+    }
+    .cancelBtn {
+      button {
+        height: 54px !important;
+        border-radius: 10px;
+        height: 54px;
+      }
+    }
+  }
+  

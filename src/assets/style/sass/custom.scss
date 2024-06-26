@@ -1,0 +1,192 @@
+@import "./variable";
+// css written here--------------------------------/////////
+
+body {
+    font-family: $font-family;
+    background-color: #f8f8f8 !important;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    padding-left: 5px;
+    margin-top: 2px;
+}
+
+.mainCardWrapper {
+    border: 1px solid #e0e4e9;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.bxLabel {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.headerBx {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 10px 0px;
+    align-items: center;
+
+    p {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+}
+
+.customBtn {
+    button {
+        border-radius: 8px;
+        height: 54px;
+        color: #fff !important;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+}
+
+.searchBx {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .MuiInputBase-root {
+        height: 58px;
+        border-radius: 8px;
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .MuiIconButton-edgeEnd {
+        padding-right: 0 !important;
+    }
+
+    .MuiButton-containedPrimary {
+        border-radius: 5px;
+        height: 40px !important;
+        font-size: 18px;
+        padding: 10px 10px;
+        font-weight: 600;
+        line-height: 24px;
+        text-transform: capitalize;
+        box-shadow: none;
+        background-color: #d74e09;
+        color: #fff;
+
+        span {
+            font-family: Poppins;
+            font-size: 15px;
+        }
+    }
+}
+
+.customTab {
+    .MuiButtonBase-root {
+        border: 1px solid #e0e4e9;
+    }
+
+    .Mui-selected {
+        color: #d74e09 !important;
+    }
+
+    button {
+        height: 45px;
+        font-weight: 600;
+        font-size: 16px;
+        padding-left: 45px;
+        padding-right: 45px;
+        text-transform: capitalize;
+    }
+
+    button:first-child {
+        border-radius: 8px 0 0 0;
+    }
+
+    button:last-child {
+        border-radius: 0 8px 0 0;
+    }
+
+    .MuiTabs-flexContainer {
+        border-radius: 15px 15px 0 0;
+    }
+
+    // .MuiTabs-indicator {
+    //   height: 0px;
+    // }
+}
+
+.actionIcon {
+    display: flex;
+}
+
+.form-card {
+    border-radius: 8px;
+    border: 1px solid #e0e4e9 !important;
+    box-shadow: none !important;
+    background: #fff;
+    margin-bottom: 3%;
+}
+
+.cardHeading {
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: normal !important;
+    margin-bottom: 12px !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 99999;
+}
+
+.activeBadge {
+    background-color: #c5eed8 !important;
+    color: #000 !important;
+    border-radius: 50px !important;
+    padding: 4px 28px !important;
+    font-size: 13px !important;
+    font-weight: 300 !important;
+}
+
+.inActiveBadge {
+    background-color: #eaeaea !important;
+    color: #000 !important;
+    border-radius: 50px !important;
+    padding: 4px 28px !important;
+    font-size: 13px !important;
+    font-weight: 300 !important;
+}
+
+.modalHeading {
+    font-family: "Salsa" !important;
+    text-align: center;
+}
+
+.headPages {
+    font-family: "Salsa" !important;
+
+    p {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+}

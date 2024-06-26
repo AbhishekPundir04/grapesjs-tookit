@@ -1,0 +1,126 @@
+.main_logo {
+    display: flex;
+    align-items: center;
+    color: #000000;
+  
+    img {
+      margin-right: 1rem;
+      height: 70px;
+    }
+  
+    span {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      color: #355995;
+    }
+  }
+  
+  .profile_bx {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  
+    .profile_name {
+      margin-left: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+  
+    }
+  
+    .profile_icon {
+      display: flex;
+      align-items: center;
+  
+      p {
+        color: #294566;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        margin-right: 12px;
+        margin-left: 12px;
+      }
+    }
+  }
+  
+  .responsive-title {
+    display: block;
+    text-align: left;
+    /* Adjust the alignment as needed */
+    margin-left: 0;
+    /* Adjust the left margin as needed */
+    /* Add any other responsive styles as needed */
+  }
+  
+  .header-button {
+    border: 1px solid #000000 !important;
+    border-radius: 18px !important;
+    padding: 6px 30px !important;
+  
+    @media (width < 900) {
+      padding: 6px 10px !important;
+    }
+  }
+  
+  /* CSS for menu title */
+  .menu-title {
+    color: rgb(255, 255, 255);
+    /* Initial text color */
+    // transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  /* Hover effect */
+  .menu-item:hover .menu-title,
+  .menu-title.isActive {
+    color: white;
+    /* Text color on hover and when active */
+  }
+  
+  .admin_main_profile_bx {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    background-color: #B6B6B6;
+    padding: 14px 25px 14px 25px;
+    border-radius: 7px;
+  }
+  
+  .svgImage {
+    margin-right: 13px;
+    display: flex;
+  }
+  
+  .isActive {
+    path {
+      stroke: #fff;
+      fill: #fff;
+    }
+  }
+  
+  .svgImage:hover {
+    path {
+      stroke: #fff;
+      fill: #fff;
+    }
+  
+    cursor: pointer;
+  }
+  
+  .headingbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 32px;
+  
+    span {
+      font-weight: 500;
+      font-family: "Salsa";
+      font-size: 24px;
+    }
+  }

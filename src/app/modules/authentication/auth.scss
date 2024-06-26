@@ -1,0 +1,174 @@
+.main_auth_wrapper {
+    .css-1y8ugea {
+      margin: 0px 0px 0px 0px !important;
+    }
+  
+    .banner_heading {
+      color: rgba(255, 255, 255, 1);
+      margin: 30px 0px 0px 50px;
+      font-size: 42px;
+      font-family: 'Open Sans', sans-serif;
+  
+      .only_header {
+        font-weight: 400;
+      }
+  
+      .menu_header {
+        font-weight: 600;
+      }
+  
+    }
+  
+    .second_banner_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 45px;
+      color: #ffffff;
+      line-height: 54px;
+      margin-top: 70px;
+      font-family: 'Open Sans', sans-serif;
+  
+  
+    }
+  
+    .third_banner_heading {
+      margin-top: 25px;
+      margin-bottom: 43px;
+      font-size: 18px;
+  
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-weight: 400;
+  
+      }
+    }
+  
+    .auth_container {
+      box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.1);
+    }
+  
+    .form-div-child {
+      box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.1);
+      margin: 60px 88px;
+      border-radius: 30px;
+      padding: 30px 21px;
+  
+      .signUp-text2 {
+        margin-bottom: 10px !important;
+  
+        h1 {
+          font-size: 18px;
+          font-style: normal;
+          font-family: "Poppins";
+          color: #939EAA;
+          font-weight: 400;
+          line-height: 21px;
+          letter-spacing: -0.165px;
+          margin-bottom: 40px;
+        }
+      }
+      .login-text1 {
+        margin-bottom: 20px !important;
+  
+        h1 {
+          color: #BF0000;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: -0.165px;
+        }
+      }
+  
+      .login-text2 {
+        margin-bottom: 10px !important;
+  
+        h1 {
+          font-size: 18px;
+          font-style: normal;
+          font-family: "Poppins";
+          color: #939EAA;
+          font-weight: 400;
+          line-height: 21px;
+          letter-spacing: -0.165px;
+          margin-bottom: 70px;
+        }
+  
+  
+      }
+  
+      .label-container {
+        display: flex;
+        margin-bottom: 21px;
+      }
+      .create-label-container {
+        display: flex;
+        margin-bottom: 15px;
+        margin-top: 10px;
+      }
+  
+  
+      .email-id,
+      .password {
+        color: #464646;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+  
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    .forgot_password {
+      display: flex;
+      justify-content: end;
+      color: #FF7528 !important;
+      margin-top: 16px !important;
+      font-size: 18px !important;
+      font-weight: 400;
+      font-family: Poppins !important;
+    }
+  
+    .login_btn_custom button {
+      width: 100%;
+      border-radius: 10px;
+      height: 58px !important;
+      font-weight: 600;
+      font-size: 16px !important;
+      color: #ffffff;
+      box-shadow: 0px 6px 26px 0px #23508b26 !important;
+      background-color: #BF0000 !important;
+      text-transform: capitalize !important;
+      margin-top: 20px !important;
+    }
+    .get_started_link{
+      text-decoration: none!important;
+    }
+    .get_started {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: 600;
+      
+  
+      .member_heading {
+        color: #929292;
+        margin-right: 4px;
+      }
+  
+      .get_started_heading {
+        color: #FF7528;
+      }
+  
+    }
+  
+  }

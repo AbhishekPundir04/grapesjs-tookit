@@ -1,0 +1,59 @@
+.custom_textfield_wrapper {
+
+    .labelClassTextfield {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #000000 !important;
+      margin-bottom: 12px;
+    }
+  
+    .MuiInputBase-root {
+      background-color: #eef3fa;
+      border-radius: 8px;
+      height: 54px;
+    }
+  
+    .MuiInputBase-multiline {
+      height: inherit;
+    }
+  
+    .MuiOutlinedInput-notchedOutline {
+      border-color: transparent;
+    }
+  }
+  
+  .star {
+    color: red;
+  }
+  
+  .label-container {
+    display: flex;
+  }
+  
+  .textfeild-wrapper {
+    .MuiOutlinedInput-notchedOutline {
+      border-radius: 10px !important;
+    }
+  
+  }
+  
+  
+  .input_field_wrapper {
+    .MuiInputBase-root {
+      height: 42px !important;
+      border-radius: 5px !important;
+      border: none !important;
+      border: none!important;
+    }
+  
+    .blueColor {
+      background-color: rgba(0, 0, 0, 0.05);
+      border:none!important
+    }
+  
+    
+    
+  }

@@ -1,0 +1,33 @@
+.header-container{
+    position: absolute;
+}
+.main-header-container{
+    display: flex;
+    justify-content: space-between;
+    .left-header{
+        margin-left: 200px;
+        color: black;
+    }
+    .right-header{
+        background: #B6B6B666;
+        padding: 10px 20px 10px 20px;
+        color: black;
+        border-radius: 7px;
+     .MuiButtonBase-root {
+        background-color: #298D6C;
+        color: #ffffff;
+        text-transform: capitalize;
+     }
+        .preview-icon{
+            margin-right: 18px;
+        }
+        .save-icon{
+            margin-right: 18px;
+        }
+        .publish_button{
+            button{
+                background-color: #298D6C;
+            }
+        }
+    }
+}

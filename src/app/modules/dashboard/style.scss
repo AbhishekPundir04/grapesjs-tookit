@@ -1,0 +1,32 @@
+.dashboard-container {
+    .create-menu-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 18px;
+        font-size: 24px;
+        font-weight: 400;
+        .menu-button{
+           
+                button{
+                    height: 54px!important;
+                    padding: 16px 40px 16px 40px;
+                }
+            
+        }
+
+    }
+
+    .overview-heading {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #2C333B;
+    }
+    .admin-dashboard{
+        background-color: aqua;
+    }
+    .carasol-container{
+        margin-top: 10px;
+        background-color: #D9D9D9;
+    }
+}

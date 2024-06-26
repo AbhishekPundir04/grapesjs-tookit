@@ -1,0 +1,32 @@
+.sidebar-container {
+    position: fixed;
+    width: 140px;
+    background-color: black;
+    z-index: 1000;
+    color: #ffff;
+    top: -2px;
+    text-align: center;
+    height: 104vh;
+
+
+    .simply-image {
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+
+    .side_menu {
+        cursor: pointer;
+        margin-bottom: 30px;
+
+        img {
+            margin-bottom: 5px;
+        }
+
+        .title_heading {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+
+        }
+    }
+}

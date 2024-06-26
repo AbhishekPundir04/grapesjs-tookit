@@ -1,0 +1,27 @@
+.qr-container {
+    margin-top: 20px;
+
+    .radio-container {
+      
+    
+        .form-container {
+            background-color: #2C333B;
+            margin-top: 10px;
+            padding: 5px 10px 5px 10px;
+            border-radius: 6px;
+
+            .download-container {
+                display: flex;
+                font-size: 12px;
+                margin-top: 25px;
+                cursor: pointer;
+
+                .download {
+                    margin-right: 20px;
+
+
+                }
+            }
+        }
+    }
+}

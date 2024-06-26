@@ -1,0 +1,247 @@
+.main-container {
+  position: relative;
+}
+
+
+:root {
+  --gjs-primary-color: #000000;
+
+
+}
+
+.gjs-title {
+  display: none;
+}
+
+.gjs-sm-sector-label {
+  color: #ffffff;
+  opacity: 1;
+}
+
+#blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#blocks .gjs-blocks-cs {
+  // flex: 50%;
+  width: calc(50% - 4%);
+  margin: 10px 2% 20px;
+}
+
+#gjs {
+  border: 3px solid #b67979;
+}
+
+.gjs-cv-canvas {
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gjs-blocks-cs {
+  background-color: #ffffff !important;
+  // width: 204px;
+  // margin-left: 30px;
+  // padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, width 0.3s ease, margin-left 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.column-2{
+  background-image: url("../../assets/images/sidebarIcons/two-column.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100% !important;  
+}
+
+.column-3{
+  background-image: url("../../assets/images/sidebarIcons/three-column.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;  
+  background-size: cover; 
+}
+
+.link-img{
+  background-image: url("../../assets/images/sidebarIcons/link.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 90% !important;  
+  background-size: cover; 
+}
+
+.text{
+  background-image: url("../../assets/images/sidebarIcons/text.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 90% !important;  
+  background-size: cover; 
+}
+
+.image{
+  background-image: url("../../assets/images/sidebarIcons/image.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 90% !important;  
+  background-size: cover; 
+}
+
+.gjs-blocks-cs:hover {
+  // background-color: #f8f8f8 !important; / Slightly lighter background color on hover /
+  // width: 220px; / Example width change on hover /
+  // margin-left: 20px; / Example margin change on hover /
+  // box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  // transform: scale(1.02); / Slightly scale up the element /
+}
+
+
+.gjs-blocks-c {
+  display: initial;
+  // grid-template-columns: auto auto;
+  // justify-content: initial;
+
+}
+
+.gjs-block {
+  width: auto;
+  height: 180px;
+  min-height: auto;
+  background-color: #424242;
+
+}
+
+.gjs-block-category {
+  border-bottom: none !important;
+}
+
+
+.panel__switcher {
+  position: initial;
+}
+
+.gjs-cv-canvas__frames {
+  background-color: #d8d8d8;
+  margin-left: 55px;
+}
+
+.drawer {
+  position: absolute;
+  top: 20;
+  left: 50;
+  z-index: 20000;
+}
+
+
+.collapsible-mini-sidebar-content {
+  width: 352px;
+  height: calc(100vh - 100px);
+  background-color: #ffffff;
+  border-radius: 4px;
+  position: absolute !important;
+  z-index: 1212112;
+  top: 82px;
+  left: 142px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  position: relative;
+  overflow: auto;
+}
+
+
+#mini-sidebar-content {
+  margin-top: 55px;
+}
+
+#second-mini-sidebar-content {
+  margin-top: 55px;
+}
+
+.cross-button {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.gjs-block {
+border-radius: 6px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.gjs-pn-panel {
+  background-color: rgb(255, 255, 255);
+}
+
+
+.main-header-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 25px 8px 0px;
+}
+
+.panel__top {
+  padding: 0;
+  width: 100%;
+  position: initial;
+  align-items: center;
+  height: 80px;
+}
+
+.panel__basic-actions {
+  position: initial;
+}
+
+.gjs-blocks-cs {
+  margin-top: 40px;
+}
+
+
+.gjs-block-1,
+.gjs-block-2,
+.gjs-block-3,
+.gjs-block-4 {
+  height: 260px;
+}
+
+
+.gjs-block-1 {
+  background-image: url("../../assets/images/template/new.png");
+  background-repeat: no-repeat;
+  
+
+
+}
+
+.gjs-block-1:hover {
+  background-image: url("../../assets/images/template/new.png"); 
+  transform: scale(1.05); 
+}
+
+
+.gjs-block-2 {
+  background-image: url("../../assets/images/template/new.png");
+  background-repeat: no-repeat;
+  
+
+}
+
+
+.panel__right {
+  position: absolute;
+  right: 3px;
+  top: 83px;
+  z-index: 1000;
+
+  .styles-container {
+    width: 238px;
+    overflow: auto;
+    height: 100vh;
+  }
+
+}
